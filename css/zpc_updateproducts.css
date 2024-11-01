@@ -1,0 +1,195 @@
+.zpc-info {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 8px 14px;
+    border-radius: 2px;
+}
+
+.tablediv {
+    background: aliceblue;
+    border: 3px solid cadetblue;
+    border-radius: 7px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.selectdiv {
+    max-height: 240px;
+    overflow-y: scroll;
+    background: aliceblue;
+    text-align: left;
+}
+
+.filteredit {
+    background-color: #f1f1f1;
+    width: 100%;
+    border: 1px solid darkblue;
+    border-radius: 3px;
+    padding: 2px;
+    font-size: 14px;
+    margin: auto;
+}
+
+.nav-tab {
+    line-height: 1em;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+.headerimage {
+    width: 100%;
+    background: #00001F;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.myli {
+    position: relative;
+    color: black; 
+    left: 28px;
+}
+
+.btn-block {
+    cursor: pointer;
+}
+
+.barcontainer {
+    width: 98%;
+    height: 20px;
+    border: 2px solid black inset;
+    background: #EEE;
+    border-radius: 5px;
+}
+.bar {
+    display: absolute;
+    background: blue;
+    width: 10%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.var {
+    font-size: 0.85em;
+    background: ivory !important;
+    font-weight: 400;
+    box-shadow: rgba(50, 50, 93, 0.25) 13px 0px 7px -7px inset, rgba(0, 0, 0, 0.3) 10px 0px 0px -20px inset;
+}
+
+.hasvar {
+   box-shadow: rgba(50, 50, 93, 0.25) 4px 6px 6px 2px inset, rgba(200, 200, 200, 0.3) 0px 0px 0px 0px inset;
+   font-weight: 700;
+   background: ivory !important;
+}
+
+.zpctable {
+   padding: 2px 6px 2px 6px; 
+}
+
+.TableProducts {
+    border-collapse: collapse;
+    border: 1px solid black;
+    border-color: black;
+    font-size: 0.9em; 
+}
+
+.selectedspan {
+    font-size: 0.80em;
+    display: block;
+}
+
+.selectedproduct {
+    background: midnightblue;
+    border: 1px solid lightblue;
+    border-radius: 4px;
+    color: yellow;
+    padding: 2px 4px;
+}
+
+.tableproducts th {
+    font-size: 1.2em;
+	background: #444;
+    color: #fff;
+    padding: 8px 4px 8px 4px;
+    font-weight: 600;
+    border-top: 1px solid #555;
+    border-right: 1px solid #555;
+    border-bottom: 1px solid #555;
+    border-left: 1px solid #555;
+}
+
+.tableproducts td {
+    padding: 1px 6px 1px 6px;
+}
+
+
+.tableproducts tr:nth-child(even) {
+    background: #F0F0F0
+}
+
+.tableproducts tr:nth-child(odd) {
+    background: #F5F5F5
+}
+
+.tableproducts tr:hover{
+    background: #FFFED1
+}
+
+.changed {
+   background-color: #D8F4FF !important; 
+}
+
+.green {
+    background-color: #DAF7A6 !important;
+}
+
+.red {
+    background-color: #F38069 !important;
+}
+
+
+.cellnumber {
+    text-align: right;    
+}
+
+.fullwidth-min {
+    width: calc(100% - 80px);
+}
+    
+.full-width {
+    width: 100%;
+}
+
+
+.zpc-button-accept {
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: #AEF195;
+  font-size: 16px;
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+  vertical-align: middle;
+}
+
+.zpc-button-close {
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: #F38069;
+  font-size: 16px;
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+  vertical-align: middle;
+}
+
+.zpc-button-undo {
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: #A6E0F7;
+  font-size: 15px;
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+  vertical-align: middle;
+}
+
